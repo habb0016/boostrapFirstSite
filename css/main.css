@@ -1,0 +1,4 @@
+/* makes images fit and allows bootstrap scaling by quarters reasonable to use */
+img{
+    max-width: 100%;
+}

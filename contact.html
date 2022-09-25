@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <title>My First Boostrap Site</title>
+</head>
+<body class="bg-dark text-white">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container container-fluid">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="w-50" src="/images/logoDesktop.svg" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Portfolio
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="portfolio.html#web">Web Dev</a></li>
+                  <li><a class="dropdown-item" href="portfolio.html#userExperience">UX/UI</a></li>
+                  <li><a class="dropdown-item" href="portfolio.html#editing">Editing</a></li>
+                  <li><a class="dropdown-item" href="portfolio.html#engraving">Laser Engraving</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <img class="w-100" src="images/contactsHero.jpg" alt="">
+      <h2 class="text-center bg-light text-dark">Contact Info</h2>
+      <h3 class="text-center">Address</h3>
+      <div class="address text-center">
+        <span>83 Designer Street</span><br>
+        <span>A1B 2C3</span><br>
+        <span>Ottawa</span>,<span>Ontario</span><br>
+        <span>Canada</span>
+      </div>
+      <hr style="opacity: 100%; border: 1px solid white; background-color: white;">
+      <h3 class="text-center">Email</h3>
+      <p class="text-center">info@jackhabbooshcreatives.com</p>
+      <hr style="opacity: 100%; border: 1px solid white; background-color: white;">
+      <h3 class="text-center">Phone Number</h3>
+      <div class="text-center"><span>Office: </span><span>613-555-5555</span></div>
+      <footer class="bg-light text-dark pt-4 pb-2 text-center mt-4">
+        <p>Copyright 2022 &copy Jack Habboosh Creatives</p> 
+      </footer>
+</body>
+</html>
